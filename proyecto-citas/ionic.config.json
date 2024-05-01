@@ -1,0 +1,7 @@
+{
+  "name": "proyecto-citas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

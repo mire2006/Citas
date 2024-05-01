@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Citas de filósofos famosos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-cita-aleatoria></app-cita-aleatoria>
+
+  <ion-fab 
+    vertical="bottom" 
+    horizontal="end" 
+    slot="fixed">
+    <ion-fab-button 
+      color="primary" 
+      (click)="irAGestionCitas()">
+      <ion-icon 
+      name="add"
+      style="color: white; 
+        vertical-align: middle;" />
+      <span 
+        style="position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: white;">+</span>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>
